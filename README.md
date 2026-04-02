@@ -41,19 +41,6 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 
 * Python 3.x
 
-### ▶️ Executando
-
-```bash
-# Clone este repositório
-git clone https://github.com/seu-usuario/calculadora-python.git
-
-# Acesse a pasta do projeto
-cd calculadora-python
-
-# Execute o programa
-python calculadora.py
-```
-
 ---
 
 ## 📂 Estrutura do projeto
