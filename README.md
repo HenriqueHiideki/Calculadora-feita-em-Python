@@ -1,55 +1,94 @@
-🧮 Calculadora Simples em Python
-📌 Descrição
+# 🧮 Calculadora em Python
 
-Este projeto é uma calculadora simples desenvolvida em Python que permite ao usuário realizar operações matemáticas básicas diretamente pelo terminal.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-As operações disponíveis são:
+## 📖 Sobre o projeto
 
-Soma
-Subtração
-Multiplicação
-Divisão
-⚙️ Funcionalidades
-Interface interativa via terminal
-Tratamento de erros (como entrada inválida e divisão por zero)
-Código organizado em funções para facilitar manutenção e entendimento
-🖥️ Como executar
-Pré-requisitos
-Python 3 instalado na máquina
-Passo a passo
+Este projeto é uma calculadora simples desenvolvida em Python com o objetivo de praticar conceitos básicos de programação, como:
 
-Copie o código para um arquivo chamado:
+* Estruturas condicionais
+* Funções
+* Entrada e saída de dados
+* Tratamento de erros
 
-calc.py
-Abra o terminal na pasta onde o arquivo está localizado
+A aplicação roda no terminal e permite realizar operações matemáticas básicas.
 
-Execute o comando:
+---
 
-python calc.py
-🧠 Estrutura do Código
+## ✨ Funcionalidades
 
-O código é dividido nas seguintes funções:
+✔️ Soma
+✔️ Subtração
+✔️ Multiplicação
+✔️ Divisão
+✔️ Tratamento de erros (entrada inválida e divisão por zero)
 
-soma(a, b)
-Retorna a soma de dois números
-subtracao(a, b)
-Retorna a subtração entre dois números
-multiplicacao(a, b)
-Retorna a multiplicação entre dois números
-divisao(a, b)
-Retorna a divisão entre dois números (com validação para divisão por zero)
-calculadora()
-Função principal responsável por:
-Exibir o menu
-Receber entradas do usuário
-Chamar a operação escolhida
-Exibir o resultado
-⚠️ Tratamento de Erros
-Entrada inválida (não numérica)
-Divisão por zero
-Opção de operação inválida
-🚀 Melhorias Futuras
-Interface gráfica (GUI)
-Histórico de cálculos
-Suporte a mais operações (potência, raiz quadrada, etc.)
-Repetição automática (loop até o usuário sair)
+---
+
+## 🛠️ Tecnologias utilizadas
+
+* Python 3
+
+---
+
+## 🚀 Como executar o projeto
+
+### 📋 Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina:
+
+* Python 3.x
+
+### ▶️ Executando
+
+```bash
+# Clone este repositório
+git clone https://github.com/seu-usuario/calculadora-python.git
+
+# Acesse a pasta do projeto
+cd calculadora-python
+
+# Execute o programa
+python calculadora.py
+```
+
+---
+
+## 📂 Estrutura do projeto
+
+```
+calculadora-python/
+│
+├── calc.py   # Código principal
+└── README.md        # Documentação do projeto
+```
+
+---
+
+## 🧠 Como funciona
+
+O sistema apresenta um menu interativo onde o usuário escolhe a operação desejada.
+Após isso, ele informa dois números e o programa retorna o resultado.
+
+O código é organizado em funções:
+
+* `soma(a, b)`
+* `subtracao(a, b)`
+* `multiplicacao(a, b)`
+* `divisao(a, b)`
+* `calculadora()`
+
+---
+
+## ⚠️ Tratamento de erros
+
+O sistema trata os seguintes casos:
+
+* Entrada de valores não numéricos
+* Divisão por zero
+* Opção inválida no menu
+
+---
+
