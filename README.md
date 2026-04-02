@@ -48,8 +48,8 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 ```
 calculadora-python/
 │
-├── calc.py   # Código principal
-└── README.md        # Documentação do projeto
+├── calc.py   
+└── README.md        
 ```
 
 ---
